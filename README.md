@@ -1,4 +1,4 @@
-# Bridget
+# Impressioni (originally Bridget)
 
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Sped0n/bridget/build.yml?logo=github) ![GitHub deployments](https://img.shields.io/github/deployments/Sped0n/bridget/Production?logo=vercel&label=deploy)
 
