@@ -1,6 +1,6 @@
 # Getting Started
 
-The files in `exampleSite` is just a simple example. Now, we will introduce it based on the same structure.
+The files in `impressioni` is just a simple example. Now, we will introduce it based on the same structure.
 
 ## Requirements
 

@@ -74,8 +74,8 @@ jobs:
       - name: Setup hugo cache
         uses: actions/cache@v4
         with:
-          path: ./exampleSite/resources
-          key: ${{ runner.os }}-hugo-${{ hashFiles('./exampleSite/resources') }}
+          path: ./impressioni/resources
+          key: ${{ runner.os }}-hugo-${{ hashFiles('./impressioni/resources') }}
           restore-keys: ${{ runner.os }}-hugo-
 
       - name: Install dependencies

@@ -16,10 +16,10 @@
     "vite:build": "vite build --no-watch --minify terser",
     "vite:server": "vite build --minify terser",
     "vite:dev": "vite build --mode development --minify false",
-    "hugo:build": "hugo --logLevel info --source=exampleSite --gc",
-    "hugo:preview": "hugo --logLevel info --source=exampleSite -D --gc",
-    "hugo:dev": "hugo server --source=exampleSite --gc -D --disableFastRender --watch --logLevel info",
-    "hugo:server": "hugo server --source=exampleSite --gc --disableFastRender -e production --watch --logLevel info"
+    "hugo:build": "hugo --logLevel info --source=impressioni --gc",
+    "hugo:preview": "hugo --logLevel info --source=impressioni -D --gc",
+    "hugo:dev": "hugo server --source=impressioni --gc -D --disableFastRender --watch --logLevel info",
+    "hugo:server": "hugo server --source=impressioni --gc --disableFastRender -e production --watch --logLevel info"
   },
   "repository": {
     "type": "git",

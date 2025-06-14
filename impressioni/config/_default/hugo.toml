@@ -1,9 +1,10 @@
 # timeout
 timeout = "1200s"
 # your website url
-baseURL = 'https://bridget-demo.sped0n.com'
+baseURL = "https://loscati.github.io/impressioni/"
+canonifyURLs = true
 # website title
-title = 'Bridget'
+title = 'impressioni'
 # don't touch this
 disableKinds = ["section", "taxonomy", "term", "home"]
 # robots.txt
