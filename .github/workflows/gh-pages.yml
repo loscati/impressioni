@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --source site-source --minify
+        run: hugo --source impressioni --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
