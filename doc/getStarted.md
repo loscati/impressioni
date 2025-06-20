@@ -1,8 +1,12 @@
 # Getting Started
 
-The files in `impressioni` is just a simple example. Now, we will introduce it based on the same structure.
+> This document is built on top of the one provided by the original author Sped0n.
+> The [Building locally](#building-locally) section describes how to build you site using Hugo locally and generating its stati `.html` on your computer.
+> On the other hand, [Building using GH-pages](#building-using-gh-pages) section explain how to use GitHub cations and GH-Pages to automatically deploy your site,
 
-## Requirements
+## Building locally
+
+### Requirements
 
 Before you start, make sure you have installed Hugo **extended version**. For more information, see [Hugo's documentation](https://gohugo.io/getting-started/installing/).
 
@@ -11,8 +15,7 @@ Once you have installed Hugo, you can check the version by running the following
 ```shell
 hugo version
 ```
-
-Which should output something like this (the version number may be different), notice the `extended` keyword:
+which should output something like this (the version number may be different), notice the `extended` keyword:
 
 ```shell
 hugo v0.120.3-a4892a07b41b7b3f1f143140ee4ec0a9a5cf3970+extended darwin/arm64 BuildDate=2023-11-01T17:57:00Z VendorInfo=brew
@@ -20,27 +23,37 @@ hugo v0.120.3-a4892a07b41b7b3f1f143140ee4ec0a9a5cf3970+extended darwin/arm64 Bui
 
 The minimum required Hugo version can be seen in the [`theme.toml`](https://github.com/Sped0n/bridget/blob/main/theme.toml#L19).
 
-## Installation
+### Installation
 
-### Git (for adavanced user)
+#### Git (for adavanced user)
 
-On the main branch, you can find the theme's latest source code. To use the latest version, you can clone the repository to `themes/bridget` by running the following command in the root directory of your Hugo site:
+On the main branch, you can find the theme's latest source code. To use the latest version, you can clone the repository to `themes/impressioni` by running the following command in the root directory of your Hugo site:
 
 ```shell
-git clone https://github.com/Sped0n/bridget themes/bridget
+git clone https://github.com/loscati/impressioni themes/impressioni
 ```
 
 If you are already using Git for your site, you can add the theme as a submodule by running the following command in the root directory of your Hugo site:
 
 ```shell
-git submodule add https://github.com/Sped0n/bridget themes/bridget
+git submodule add https://github.com/loscati/impressioni themes/impressioni
 ```
 
 > ⚠️⚠️⚠️
 >
 > Please refer to the config section for the following content.
 
-### Module (recommended)
+##### Customization (AKA for developer)
+
+> Before heading to this section, please make sure you have **installation with Git**.
+>
+> You can use any package manager you want (npm/pnpm/yarn/bun).
+
+- run `pnpm install` to install neceessary dependencies.
+- run `pnpm run dev` to host a dev server.
+- when you’re ready, run `pnpm run build` to update artifacts.
+
+#### Module (recommended)
 
 > If you want to have some customizations, use Git installation instead.
 
@@ -72,6 +85,21 @@ hugo mod get -u
 > ⚠️⚠️⚠️
 >
 > Please refer to the config section for the following content.
+
+## Building using GH-Pages
+
+> I assume that you know how to for the repo, set it up locally with git and sync it with a GitHub repo.
+
+The first action required is to setup the repo to use Pages. In the GitHub repo page go to `Settings > Pages` and activate the service.
+At this point you have to point to the branch and directory where GH will find the `index.html` file to deploy. In the settings page, we will select the `gh-pages` branch with `/ (root)` as directory.
+Don't worry if you do not have a `gh-pages` branch yet, this will be created by the GH actions if successfull.
+
+The second step is to setup the GH actions.
+This repo contains already the necessary CI file under `.github/workflows/gh-pages.yml` that you can inspect by yourself.
+It firstly call Hugo Extended (see [previous sections](#installation)), compiles the pages, and then save them under `impressioni/public`.
+You won't see this direcotry in your repo because the operation in the CI are then clean up (these are considered temperary files).
+On the contrary, the second operation that is calling `GH-Pages` action sees these files and perfomer the deployment.
+You can inspect the GH Action log to have more info in what it does, but basically it copies teh files, create the branch, commit to it and deploy the website.
 
 ## Content Management
 
@@ -186,12 +214,3 @@ Detailed description in the comments.
 
 https://gohugo.io/templates/sitemap-template/#configuration
 
-## Customization (AKA for developer)
-
-> Before heading to this section, please make sure you have **installation with Git**.
->
-> You can use any package manager you want (npm/pnpm/yarn/bun).
-
-- run `pnpm install` to install neceessary dependencies.
-- run `pnpm run dev` to host a dev server.
-- when you’re ready, run `pnpm run build` to update artifacts.

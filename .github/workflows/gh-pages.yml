@@ -1,3 +1,6 @@
+# Author: Leonardo Salicari (@loscati)
+# Date: 6/2025
+
 name: Deploy Bridget-based site to GitHub Pages
 
 on:
@@ -28,4 +31,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./impressioni/public
+          publish_dir: ./impressioni/public  # NOTE: Hugo dump the generate .html here
