@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sped0n/bridget.git"
+    "url": "git+https://github.com/loscati/impressioni.git"
   },
   "keywords": [
     "hugo",
@@ -32,12 +32,12 @@
     "typescript",
     "sass"
   ],
-  "author": "spedon",
+  "author": "spedon & loscati",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sped0n/bridget/issues"
+    "url": "https://github.com/loscati/impressioni/issues"
   },
-  "homepage": "https://github.com/Sped0n/bridget#readme",
+  "homepage": "https://github.com/loscati/impressioni#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",

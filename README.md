@@ -1,16 +1,18 @@
 # Impressioni (originally Bridget)
 
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Sped0n/bridget/build.yml?logo=github) ![GitHub deployments](https://img.shields.io/github/deployments/Sped0n/bridget/Production?logo=vercel&label=deploy)
+> This is a soft-fork from this [beautiful project](https://github.com/Sped0n/bridget).
+>
+> Original Author: Sped0n, who based its work on:
+> 
+> Based on the https://github.com/tylermcrobert/bridget-pictures-www.
+
+[![pages-build-deployment](https://github.com/loscati/impressioni/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/loscati/impressioni/actions/workflows/pages/pages-build-deployment)
 
 Bridget is a minimal [Hugo](https://gohugo.io) theme for photographers/visual artists, powered by [Solid.js](https://www.solidjs.com).
 
-Based on the https://github.com/tylermcrobert/bridget-pictures-www.
+## [impressioni website](https://loscati.github.io/impressioni)
 
 ![thumbnail](images/tn.jpg)
-
-## [Demo Site](https://bridget-demo.sped0n.com)
-
-To see this theme in action, here is a live [demo site](https://bridget-demo.sped0n.com) which is rendered with **Bridget** theme.
 
 ## Getting Started
 
@@ -18,8 +20,7 @@ Head to this [documentation](https://github.com/Sped0n/bridget/blob/main/doc/get
 
 ## Features
 
-- **Blazingly fast**: 100/100 on both desktop and mobile in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
-- Powered by **[Solid.js](https://www.solidjs.com)**, a declarative, efficient, and flexible JavaScript library for building user interfaces
+- Fast: 100/100 on both desktop and mobile in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
 - JS **dynamic loading** (powered by ESM)
 - Image **Preloading**/**Lazy loading**
 - **Dynamic resolution** based on view mode
@@ -39,7 +40,7 @@ Bridget supports the following languages:
 - Spanish
 - Italian
 - Tamil
-- [Contribute with a new language](https://github.com/Sped0n/bridget/pulls)
+- [Contribute with a new language](https://github.com/loscati/impressioni/pulls)
 
 ## Credits
 
