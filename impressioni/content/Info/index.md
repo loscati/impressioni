@@ -22,7 +22,7 @@ If you notice some errors, open a [issue on github](https://github.com/loscati/i
 
 This website is based on the Bridget theme, a _minimal_ Hugo theme designed for photographers/visual artists, powered by <u>[Solid.js](https://www.solidjs.com)</u>.
 
-To know more about the website (with an open source code and MIT license), seeL 
+To know more about the website (with an open source code and MIT license), seeL
 
 [GitHub Repo ↗](https://github.com/loscati/impressioni)
 

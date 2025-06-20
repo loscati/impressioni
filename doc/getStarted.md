@@ -15,6 +15,7 @@ Once you have installed Hugo, you can check the version by running the following
 ```shell
 hugo version
 ```
+
 which should output something like this (the version number may be different), notice the `extended` keyword:
 
 ```shell
@@ -213,4 +214,3 @@ Detailed description in the comments.
 ### `sitemap.toml`
 
 https://gohugo.io/templates/sitemap-template/#configuration
-

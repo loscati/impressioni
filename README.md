@@ -5,7 +5,7 @@
 > This is a soft-fork from this [beautiful project](https://github.com/Sped0n/bridget).
 >
 > Original Author: Sped0n, who based its work on:
-> 
+>
 > https://github.com/tylermcrobert/bridget-pictures-www.
 
 Bridget is a minimal [Hugo](https://gohugo.io) theme for photographers/visual artists, powered by [Solid.js](https://www.solidjs.com).
