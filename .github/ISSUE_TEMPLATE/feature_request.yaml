@@ -14,9 +14,9 @@ body:
     attributes:
       label: Requirement
       description: |
-        Ddescribe what you need here.
+        Describe what you need here.
       placeholder: |
-        I want ABC feature ...
+        I would like ...
     validations:
       required: true
 
@@ -31,17 +31,6 @@ body:
         Photos (if exists)
     validations:
       required: true
-
-  - type: textarea
-    id: more
-    attributes:
-      label: Addition details
-      description: |
-        Describe addition details here
-      placeholder: |
-        Additional details and attachments
-    validations:
-      required: false
 
   - type: checkboxes
     id: check

@@ -46,31 +46,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: env
-    attributes:
-      label: Logs
-      description: |
-        CLI output or browser log.
-      placeholder: |
-        ❯ pnpm run server
-
-        > bridget@v1.0.0 server /Users/spedon/eden/hugo/bridget
-        > run-p vite:server hugo:server
-    validations:
-      required: false
-
-  - type: textarea
-    id: more
-    attributes:
-      label: Addition details
-      description: |
-        Describe addition details here
-      placeholder: |
-        Additional details and attachments
-    validations:
-      required: false
-
   - type: input
     id: hugo-version
     attributes:
@@ -94,7 +69,7 @@ body:
     attributes:
       label: OS version
       description: OS + version code
-      placeholder: Windows 11, macOS 14
+      placeholder: Windows 11, macOS 14, Linux
     validations:
       required: true
 
