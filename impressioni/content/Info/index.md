@@ -12,14 +12,18 @@ _build:
   publishResources: false
 ---
 
-Bridget is a _minimal_ Hugo theme designed for photographers/visual artists, powered by <u>[Solid.js](https://www.solidjs.com)</u>.
+I am Leonardo Salicari (aka loscati here on the internet) and I am an amatour photographer.
 
-The inspiration for this theme came from a video by <u>[Hyperlexed](https://www.youtube.com/@Hyperplexed)</u>, which can be found <u>[here](https://www.youtube.com/watch?v=Jt3A2lNN2aE)</u>. Initially, it was developed using no third-party dependencies. However, after website designer <u>[Tyler McRobert](https://tylermcrobert.com)</u> made the source code publicly available, I realized that I have invented many unnecessary wheels, and this project was modified to porting the original design to Hugo while focusing on _performance_.
+This website is an effort to collect some of the photographic projects I have done in the past.
+This website does not containe all my photos and is not meant to be a proper portfolio, but an experiment to share some of the photo that I took and are connected through a theme or visual grammar.
 
-Once again, great shout out to <u>[Tyler McRobert](https://tylermcrobert.com)</u> for his inspiration to this project.
+If you want know more about me, see my [main website](https://loscati.github.io/).
+If you notice some errors, open a [issue on github](https://github.com/loscati/impressioni/issues).
 
-[GitHub Repo ↗](https://github.com/Sped0n/bridget)
+This website is based on the Bridget theme, a _minimal_ Hugo theme designed for photographers/visual artists, powered by <u>[Solid.js](https://www.solidjs.com)</u>.
 
-Original site design by <u>[Tyler McRobert](https://tylermcrobert.com)</u>.
+To know more about the website (with an open source code and MIT license), seeL 
 
-&copy; {{< year >}} <u>[Spedon](https://github.com/Sped0n)</u> | Built with Hugo
+[GitHub Repo ↗](https://github.com/loscati/impressioni)
+
+&copy; {{< year >}} <u>[Spedon](https://github.com/loscati)</u> | Built with Hugo
