@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT || github.token }}
+          token: ${{ secrets.SECRET }}
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
@@ -55,4 +55,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'ci: format code'
-          
+
