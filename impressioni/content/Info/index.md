@@ -12,7 +12,7 @@ _build:
   publishResources: false
 ---
 
-I am Leonardo Salicari (aka loscati here on the internet) and I am an amatour photographer.
+I am Leonardo Salicari (aka loscati here on the internet) and I am an amateur photographer.
 
 This website is an effort to collect some of the photographic projects I have done in the past.
 This website does not containe all my photos and is not meant to be a proper portfolio, but an experiment to share some of the photo that I took and are connected through a theme or visual grammar.
