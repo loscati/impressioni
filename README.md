@@ -1,16 +1,14 @@
-# Impressioni (originally Bridget)
+# [impressioni website](https://loscati.github.io/impressioni) (originally Bridget)
+
+[![pages-build-deployment](https://github.com/loscati/impressioni/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/loscati/impressioni/actions/workflows/pages/pages-build-deployment)
 
 > This is a soft-fork from this [beautiful project](https://github.com/Sped0n/bridget).
 >
 > Original Author: Sped0n, who based its work on:
 > 
-> Based on the https://github.com/tylermcrobert/bridget-pictures-www.
-
-[![pages-build-deployment](https://github.com/loscati/impressioni/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/loscati/impressioni/actions/workflows/pages/pages-build-deployment)
+> https://github.com/tylermcrobert/bridget-pictures-www.
 
 Bridget is a minimal [Hugo](https://gohugo.io) theme for photographers/visual artists, powered by [Solid.js](https://www.solidjs.com).
-
-## [impressioni website](https://loscati.github.io/impressioni)
 
 ![thumbnail](images/tn.jpg)
 
