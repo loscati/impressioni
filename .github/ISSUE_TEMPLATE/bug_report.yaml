@@ -83,7 +83,7 @@ body:
         - label: Pull request is welcome. Check this if you want to start a pull request
           required: false
 
-        - label: I have searched on [Issue Tracker](https://github.com/Sped0n/bridget/issues), No duplicate or related open issue has been found
+        - label: I have searched on [Issue Tracker](https://github.com/losacati/impressioni/issues), No duplicate or related open issue has been found
           required: true
 
         - label: Ensure there is only one bug report in this issue. Please make mutiply issue for mutiply bugs
