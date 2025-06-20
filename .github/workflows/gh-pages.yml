@@ -31,4 +31,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./impressioni/public  # NOTE: Hugo dump the generate .html here
+          publish_dir: ./impressioni/public # NOTE: Hugo dump the generate .html here
